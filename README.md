@@ -24,11 +24,11 @@ To use this Lightning web component, follow the steps below:
 
 4. Deploy the Apex controller class to your org using the following command:
      
-  **sfdx force:source:deploy -p force-app/main/default/classes/ContactController.cls**
+  **sfdx force:source:deploy -u [username] -p force-app/main/default/classes/ContactController.cls**
 
 5. Deploy the Lightning web component to your org using the following command:
 
-  **sfdx force:source:deploy -p force-app/main/default/lwc/contactList**
+  **sfdx force:source:deploy -u [username] -p force-app/main/default/lwc/contactList**
 
 6. Open your Salesforce org.
 
