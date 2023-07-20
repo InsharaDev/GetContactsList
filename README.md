@@ -12,21 +12,27 @@ To use this Lightning web component, follow the steps below:
 - Salesforce CLI installed.
 - Access to deploy Apex classes and Lightning web components in your org.
 
+### Setting up Visual Studio Code
+ 1. Install Visual Studio Code (VSCode) if you haven't already:
+ Download and install VSCode from the official website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+ 2. Install the Salesforce Extension Pack:
+ In VSCode, go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window. Search for "Salesforce Extension Pack" and click Install.
+
 ### Installation
 
 1. Clone the repository to your local machine or download the source code as a ZIP file.
 
 2. Authenticate with your Salesforce org using the Salesforce CLI:
 
-  **** sfdx force:auth:web:login ****
+  **sfdx force:auth:web:login**
 
 3. Navigate to the root directory of the cloned/downloaded project.
 
-4. Deploy the Apex controller class to your org using the following command:
+4. Deploy the Apex controller class to your org using the following command in VScode:
      
   **sfdx force:source:deploy -u [username] -p force-app/main/default/classes/ContactController.cls**
 
-5. Deploy the Lightning web component to your org using the following command:
+5. Deploy the Lightning web component to your org using the following command in VSCode:
 
   **sfdx force:source:deploy -u [username] -p force-app/main/default/lwc/contactList**
 
