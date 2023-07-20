@@ -18,7 +18,7 @@ To use this Lightning web component, follow the steps below:
 
 2. Authenticate with your Salesforce org using the Salesforce CLI:
 
-  ** sfdx force:auth:web:login **
+  **** sfdx force:auth:web:login ****
 
 3. Navigate to the root directory of the cloned/downloaded project.
 
